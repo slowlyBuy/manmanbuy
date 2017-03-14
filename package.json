@@ -1,0 +1,19 @@
+{
+  "name": "manmanbuy",
+  "version": "1.0.0",
+  "description": "我的慢慢买项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowlyBuy/manmanbuy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowlyBuy/manmanbuy/issues"
+  },
+  "homepage": "https://github.com/slowlyBuy/manmanbuy#readme"
+}
