@@ -1,0 +1,101 @@
+@font-face{
+    font-family: "slowly";
+    src:
+            url(../fonts/iconfont.eot) format("embedded-opentype"),
+            url(../fonts/iconfont.svg) format("svg"),
+            url(../fonts/iconfont.ttf) format("truetype"),
+            url(../fonts/iconfont.woff) format("woff");
+}
+.slowly_icon{
+    font-family: slowly;
+}
+
+.icon-fanhui::before{
+    font-size: 38px;
+    color: #fff;
+}
+.icon-wechaticon16::before{
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    height: 30px;
+}
+header {
+    height: 60px;
+    background-color: #FF841D;
+}
+.topBar{
+    height: 60px;
+    text-align: center;
+}
+
+.topBar .back{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding:10px 5px;
+}
+.topBar h3{
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    margin: 0;
+}
+.topBar .down{
+    width: 60px;
+    height: 60px;
+    padding:5px;
+    float: right;
+    text-align: center;
+}
+
+.topBar .down span:nth-child(2){
+    font-size: 12px;
+    color: #fff;
+}
+.container ul{
+    padding:20px 10px ;
+}
+.container .proList{
+
+}
+.container .product{
+
+}
+.product img{
+    float: left;
+    margin-right: 20px;
+}
+.product .mes{
+    width: 100%;
+
+}
+
+.mes h6{
+    font:normal 500 14px 'microsoft yahei';
+}
+
+.mes span:nth-of-type(2){
+    color: #FF841D;
+}
+.mes p {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #B5A9A8;
+}
+.mes p span:nth-child(2){
+    float: right;
+    color: #B5A9A8;
+}
+footer{
+   display: flex;
+}
+.paging {
+    justify-content: center;
+    text-align: center;
+}
+.paging button{
+    width: 80px;
+    border-radius: 4px;
+    text-align: center;
+}
